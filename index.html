@@ -1,11 +1,21 @@
-
+<!-- Project Boom basic AR web app -->
 <!doctype HTML>
 <html>
-    <div>
-        <a rel="ar" href="/toy_biplane.usdz">
-            <img src="/click.jpg">
-        </a>
-    </div>
+    <head>
+        <title>Project Boom AR Demo</title>
+    </head>
 
-    <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">Avocado</a>
+    <body>
+        <div>
+            <!-- iOS implementation -->
+            <a rel="ar" href="/toy_biplane.usdz">
+                <img src="/appleLogo.jpg">
+            </a>
+
+            <!-- Android implementation -->
+            <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">
+                <img src="/androidLogo.jpg">
+            </a>
+        </div>
+    </body>
 </html>
